@@ -34,13 +34,13 @@ In fact, except from necessary installations, the user does not need to know or 
 Such as "what is your file name". The program will do the rest behind the scenes.
 
 
-Step 2: Install Python
+### Step 2: Install Python
   
   If you don't have Python installed, you can download it from the official Python website. 
   https://www.python.org/downloads/
   During installation, make sure to check the box that says "Add Python to PATH."
 
-Step 3: Install blast
+### Step 3: Install blast
 
 === explanation about blast
 
@@ -50,11 +50,11 @@ Step 3: Install blast
   3. After finishing downloading, press on "ncbi-blast-2.15.0+-x64-macosx.tar" and a folder named "ncbi-blast-2.15.0+" will be extracted.
   4. Change the folder name to exactly "blast" and move it to the folder "program_group6".
 
-Step 4: Open Terminal
+### Step 4: Open Terminal
   In the Finder , open the /Applications/Utilities folder, then double-click Terminal.
 
 
-Step 5: Install EDirect
+### Step 5: Install EDirect
 
   To install the EDirect software, open a terminal window and execute one of the following two commands:
 
@@ -68,7 +68,8 @@ Step 5: Install EDirect
   echo "export PATH=\$HOME/edirect:\$PATH" >> $HOME/.bash_profile
 
   You should get a message similar to: "Entrez Direct has been successfully downloaded and installed."
-Step 5: Move EDirect To Program File
+
+### Step 6: Move EDirect To Program File
 
   1. Open terminal.
   2. Type in:
@@ -91,18 +92,19 @@ Step 5: Move EDirect To Program File
      For example, for me:
      mv edirect Desktop/bioinformatics/group_project/program_group6/blast
 
-Step 6: Install Required Libraries
+### Step 7: Install Required Libraries
   1. Open terminal and type:
      cd
   2. Type:
      pip install biopython pandas
 
-Step 7: Verify Installations
+### Step 8: Verify Installations
   1. Go to blast folder inside program_group6 folder. Make sure you have inside a folder named "bin", with many files inside, and a folder named "edirect" (among others).
   
   2. a. Open terminal and type:
         python3
      b. Type each line, one by one, press enter after each line:
+
         from Bio import Entrez
         from Bio import SeqIO
         from Bio.Blast import NCBIXML
