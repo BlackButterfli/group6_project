@@ -149,6 +149,8 @@ Option 3
 Whenever you are asked, ensure that the FASTA files for protein sequences are stored in the "data" folder.
 A fasta file must end with fasta or faa
 
+# ACKNOWLEDGMENTS #
+
 
 
 פ
