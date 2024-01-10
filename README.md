@@ -20,7 +20,7 @@ Exit (Option 'end'):
 
 **For mac users:** (windows users skip)
 
-Step 1: Download Program Folder
+### Step 1: Download Program Folder
   1. Download the folder "program_group6" and name it exactly "program_group6". Save where desired.
   2. Make sure you have 2 folders inside program_group6 folder: "code" and "data".
   3. Make sure you have 2 files inside code folder: "program_functions.py" and "run_program.sh".
