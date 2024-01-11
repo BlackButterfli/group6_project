@@ -7,7 +7,7 @@ When executing the program, you have a main menu with 4 options:
   * This option allows you to see how we extracted results (and extract yourself) about the four specific genes and if are present in new Yersinia.
 
 **Check Any Protein in Fasta File (Option 2):** 
-  * You can use this option to check any protein of your own in any FASTA file within the "data" folder, and have similar results like in option 1.
+  * You can use this option to check any protein of your own in any FASTA file and have similar results like in option 1.
 
 **Retrieve Sequence by ID (Option 3):**
   * You can retrieve a sequence based on its ID from a specified FASTA file.
