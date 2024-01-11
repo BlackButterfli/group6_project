@@ -3,13 +3,13 @@
 This program is runs from one file, utilizing a set of Python functions stored in a separate script to perform various tasks related to gene analysis. 
 When executing the program, you have a main menu with 4 options:
 
-Check for 4 Genes in New Yersinia (Option 1):
+Check for 4 Genes in New Yersinia (Option 1):  
   * This option allows you to see how we extracted results (and extract yourself) about the four specific genes and if are present in new Yersinia.
 
-Check Any Protein in Fasta File (Option 2):
+Check Any Protein in Fasta File (Option 2):  
   * You can use this option to check any protein of your own in any FASTA file within the "data" folder, and have similar results like in option 1.
 
-Retrieve Sequence by ID (Option 3):
+Retrieve Sequence by ID (Option 3):  
   * You can retrieve a sequence based on its ID from a specified FASTA file.
 
 Exit (Option 'end'):
@@ -20,7 +20,7 @@ Exit (Option 'end'):
 
 **For mac users:** (windows users skip)
 
-### Step 1: Download Program Folder
+### Step 1: Download Program Folder  
   1. Download the folder "program_group6" and name it exactly "program_group6". Save where desired.
   2. Make sure you have 2 folders inside program_group6 folder: "code" and "data".
   3. Make sure you have 2 files inside code folder: "program_functions.py" and "run_program.sh".
@@ -36,16 +36,16 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 2: Install Python
   
-  If you don't have Python installed, you can download it from the official Python website. 
-  https://www.python.org/downloads/
+  If you don't have Python installed, you can download it from the official Python website.   
+  https://www.python.org/downloads/  
   During installation, make sure to check the box that says "Add Python to PATH."
 
 ### Step 3: Install blast
 
 === explanation about blast
 
-  1. Go to page: 
-  https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/
+  1. Go to page:   
+  https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/  
   2. Right click on "ncbi-blast-2.15.0+-x64-macosx.tar.gz". If needed choose "Save link as…" from the popup menu and save where desired.
   3. After finishing downloading, press on "ncbi-blast-2.15.0+-x64-macosx.tar" and a folder named "ncbi-blast-2.15.0+" will be extracted.
   4. Change the folder name to exactly "blast" and move it to the folder "program_group6".
@@ -71,17 +71,17 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 6: Move EDirect To Program File
 
-  1. Open terminal.
-  2. Type in:
+  1. Open terminal.  
+  2. Type in:  
      cd
   No messege should apear.
-  3. Now you will copy to path to where EDirect is saved.
-     Type in:
+  3. Now you will copy to path to where EDirect is saved.  
+     Type in:  
      find . -type d -name "edirect" 2>/dev/null
-  4. Copy and save for later the path you got from after the ./
+  4. Copy and save for later the path you got from after the ./  
      Example: If you got: ./edirect -Copy: edirect
-  5. Now you will copy to path to your blast folder in program folder:
-     Type in:
+  5. Now you will copy to path to your blast folder in program folder:  
+     Type in:  
      find . -type d -name "blast" 2>/dev/null
 
      Notice your path will end with /program_group6/blast
