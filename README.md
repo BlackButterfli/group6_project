@@ -52,11 +52,13 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 4: Open Terminal  
   In the Finder , open the /Applications/Utilities folder, then double-click Terminal.
+  In a terminal, you simply type commands and press Enter to interact with a computer's operating system.
+  We will use it to run the program.
 
 
 ### Step 5: Install EDirect  
 
-  To install the EDirect software, open terminal and type one of the following:  
+  To install the EDirect software, open terminal type one of the following and press Enter:  
 
   sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"  
 
@@ -74,36 +76,38 @@ Such as "what is your file name". The program will do the rest behind the scenes
 ### Step 6: Move EDirect To Program File  
 
   1. Open terminal.  
-  2. Type in:  
+  2. Type in and press Enter:  
      cd  
   No messege should apear.  
   3. Now you will copy to path to where EDirect is saved.    
-     Type in:   
+     Type in and press Enter:   
      find . -type d -name "edirect" 2>/dev/null  
   4. Copy and save for later the path you got from after the ./    
      Example: If you got: ./edirect -Copy: edirect  
   5. Now you will copy to path to your blast folder in program folder:    
-     Type in:    
-     find . -type d -name "blast" 2>/dev/null  
-  
+     Type in and press Enter:    
+     find . -type d -name "blast" 2>/dev/null    
+    
      Notice your path will end with /program_group6/blast  
   6. Copy and save for later the path you got from after the ./  
-     Example: If you got: ./Desktop/bioinformatics/group_project/program_group6/blast -Copy: Desktop/bioinformatics/group_project/program_group6/blast  
-  7. Type in:  
+     Example:  
+     If you got: ./Desktop/bioinformatics/group_project/program_group6/blast  
+     -Copy:        Desktop/bioinformatics/group_project/program_group6/blast    
+  8. Type in and press Enter:  
      mv (path from 4) (path from 6)  
      For example, for me:  
      mv edirect Desktop/bioinformatics/group_project/program_group6/blast  
  
 ### Step 7: Install Required Libraries  
-  1. Open terminal and type:  
+  1. Open terminal, type and press Enter:  
      cd  
-  2. Type:  
+  2. Type and press Enter:  
      pip install biopython pandas  
 
 ### Step 8: Verify Installations  
   1. Go to blast folder inside program_group6 folder. Make sure you have inside a folder named "bin", with many files inside, and a folder named "edirect" (among others).  
     
-  2. a. Open terminal and type:  
+  2. a. Open terminal, type and press Enter:  
         python3  
      b. Type each line, one by one, press enter after each line:  
   
@@ -118,15 +122,15 @@ Such as "what is your file name". The program will do the rest behind the scenes
   
 # RUN PROGRAM #  
 
-1. Open terminal and type  
+1. Open terminal, type and press Enter:
    cd  
-2. Type in:  
+2. Type in and press Enter:  
    find . -type d -name "code" 2>/dev/null  
   
    Again, Copy and save for later the path you got from after the ./  
    Notice your path will end with /program_group6/code  
      
-3. Type in:  
+3. Type in and press Enter:   
    bash run_program.sh  
   
 You will now be welcomed in the main menu.  
