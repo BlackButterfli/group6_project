@@ -1,19 +1,19 @@
 # INTRODUCTION #
 
-This program is runs from one file, utilizing a set of Python functions stored in a separate script to perform various tasks related to gene analysis. 
+This program runs from one file, utilizing a set of Python functions stored in a separate script to perform various tasks related to gene analysis. 
 When executing the program, you have a main menu with 4 options:
 
-Check for 4 Genes in New Yersinia (Option 1):  
+**Check for 4 Genes in New Yersinia (Option 1):**
   * This option allows you to see how we extracted results (and extract yourself) about the four specific genes and if are present in new Yersinia.
 
-Check Any Protein in Fasta File (Option 2):  
+**Check Any Protein in Fasta File (Option 2):** 
   * You can use this option to check any protein of your own in any FASTA file within the "data" folder, and have similar results like in option 1.
 
-Retrieve Sequence by ID (Option 3):  
+**Retrieve Sequence by ID (Option 3):**
   * You can retrieve a sequence based on its ID from a specified FASTA file.
 
-Exit (Option 'end'):
-  * At any point you can type in "end" to go back to the main menu, or from the main menu to exit the program.
+**Exit (Option 'end'):**
+  * At any point you can type in "end" to go back to the main menu, or if you are in the main menu - enter ׳end׳ to exit the program.
 
 
 # INSTALLATION #
@@ -42,7 +42,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 3: Install blast  
 
-=== explanation about blast
+=== explanation about blast ===
 
   1. Go to page:   
   https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/  
