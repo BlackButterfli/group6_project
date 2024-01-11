@@ -136,8 +136,8 @@ Such as "what is your file name". The program will do the rest behind the scenes
      
    Again, Copy and save for later the path you got from after the ./  
    Notice your path will end with /program_group6/code
-   Example:
-   If you got: ./Desktop/bioinformatics/group_project/program_group6/code
+   Example:  
+   If you got: ./Desktop/bioinformatics/group_project/program_group6/code  
    -Copy:        Desktop/bioinformatics/group_project/program_group6/code
    
 3. Type in and press Enter:
