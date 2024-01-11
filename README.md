@@ -40,7 +40,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
   https://www.python.org/downloads/  
   During installation, make sure to check the box that says "Add Python to PATH."   
 
-### Step 3: Install blast  
+### Step 3: Install Blast  
 
 === explanation about blast ===
 
