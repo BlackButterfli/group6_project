@@ -151,8 +151,13 @@ A fasta file must end with fasta or faa
 
 # ACKNOWLEDGMENTS #
 
+This project was created by the amazing contributers:
 
+Sapir developed the python and bash script parts regarding the structure and running of the program. She also wrote the manual on how to properly install and run the program (README). Her expertise ensures a user-friendly experience, guiding users through a smooth program execution.
 
+Angela developed the code for running the scripts using programs such as blast. She also ..... (results for analysis)
+
+Both of them made the code compatible for both mac and windows users.
 פ
 
     
