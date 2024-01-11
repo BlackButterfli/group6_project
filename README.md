@@ -122,7 +122,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
   
 # RUN PROGRAM #  
 
-1. Open terminal (step 4), type and press Enter:
+1. Open terminal (step 4), type and press Enter:  
    cd  
 2. Type in and press Enter:  
    find . -type d -name "code" 2>/dev/null  
