@@ -56,18 +56,20 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 5: Install EDirect  
 
-  To install the EDirect software, open a terminal window and execute one of the following two commands:  
+  To install the EDirect software, open terminal and type one of the following:  
 
   sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"  
 
   sh -c "$(wget -q https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh -O -)"  
     
-  Please allow 20 minutes for it to donwload. This will download a number of scripts and several precompiled programs into an "edirect" folder in the user's home directory.   
-  It may then print an additional command for updating the PATH environment variable in the user's configuration file. The editing instructions will look something like:  
- 
-  echo "export PATH=\$HOME/edirect:\$PATH" >> $HOME/.bash_profile  
+  Please allow 20 minutes for it to donwload.   
+  It may then print an additional command asking for PATH environment variable in the user's configuration file. The editing instructions will look something like:    
+   
+  echo "export PATH=\$HOME/edirect:\$PATH" >> $HOME/.bash_profile    
+  
+  If so, press Enter.  
 
-  You should get a message similar to: "Entrez Direct has been successfully downloaded and installed."  
+  Now you should get a message similar to: "Entrez Direct has been successfully downloaded and installed."  
 
 ### Step 6: Move EDirect To Program File  
 
