@@ -144,12 +144,16 @@ Results saved in folder inside code.
 After each use, move/delete the folder since another run will add to text and overwrite csv.  
   
 Option 3  
+Mention that it is NOT case sensitive.
 
   
 ### Important Notes - must read  
-  
-Whenever you are asked, ensure that the FASTA files for protein sequences are stored in the "data" folder.  
-A fasta file must end with fasta or faa  
+
+How to use FASTA files in the program: 
+1. Always store protein sequence FASTA files in the designated "data" folder insidie "program_group6" folder. 
+2. Ensure that your FASTA files have proper extensions such as ".fasta" or ".faa". 
+3. When entering the name of the file to the program, include the extension.
+4. Avoid using the same filename for multiple files to prevent conflicts.
 
 # ACKNOWLEDGMENTS #  
   
