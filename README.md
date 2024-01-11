@@ -124,13 +124,23 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 1. Open terminal (step 4), type and press Enter:  
    cd  
-2. Type in and press Enter:  
+2. Type in and press Enter:
+     
    find . -type d -name "code" 2>/dev/null  
-  
+     
    Again, Copy and save for later the path you got from after the ./  
    Notice your path will end with /program_group6/code  
+4. Type in and press Enter:
+   
+   cd (your path)
      
-3. Type in and press Enter:   
+   Example:
+   cd Desktop/bioinformatics/group_project/program_group6/code
+6.  Type in and press Enter:  
+    pwd  
+    This command to the terminal checks where you are in your computer. You should get the same path from 2.  
+    If not, start from 1 again.  
+7. Type in and press Enter:   
    bash run_program.sh  
   
 You will now be welcomed in the main menu.  
