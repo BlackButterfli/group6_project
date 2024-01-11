@@ -38,9 +38,9 @@ Such as "what is your file name". The program will do the rest behind the scenes
   
   If you don't have Python installed, you can download it from the official Python website.   
   https://www.python.org/downloads/  
-  During installation, make sure to check the box that says "Add Python to PATH."
+  During installation, make sure to check the box that says "Add Python to PATH."   
 
-### Step 3: Install blast
+### Step 3: Install blast  
 
 === explanation about blast
 
@@ -50,116 +50,114 @@ Such as "what is your file name". The program will do the rest behind the scenes
   3. After finishing downloading, press on "ncbi-blast-2.15.0+-x64-macosx.tar" and a folder named "ncbi-blast-2.15.0+" will be extracted.
   4. Change the folder name to exactly "blast" and move it to the folder "program_group6".
 
-### Step 4: Open Terminal
+### Step 4: Open Terminal  
   In the Finder , open the /Applications/Utilities folder, then double-click Terminal.
 
 
-### Step 5: Install EDirect
+### Step 5: Install EDirect  
 
-  To install the EDirect software, open a terminal window and execute one of the following two commands:
+  To install the EDirect software, open a terminal window and execute one of the following two commands:  
 
-  sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+  sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"  
 
-  sh -c "$(wget -q https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh -O -)"
-  
-  Please allow 20 minutes for it to donwload. This will download a number of scripts and several precompiled programs into an "edirect" folder in the user's home directory. 
-  It may then print an additional command for updating the PATH environment variable in the user's configuration file. The editing instructions will look something like:
+  sh -c "$(wget -q https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh -O -)"  
+    
+  Please allow 20 minutes for it to donwload. This will download a number of scripts and several precompiled programs into an "edirect" folder in the user's home directory.   
+  It may then print an additional command for updating the PATH environment variable in the user's configuration file. The editing instructions will look something like:  
+ 
+  echo "export PATH=\$HOME/edirect:\$PATH" >> $HOME/.bash_profile  
 
-  echo "export PATH=\$HOME/edirect:\$PATH" >> $HOME/.bash_profile
+  You should get a message similar to: "Entrez Direct has been successfully downloaded and installed."  
 
-  You should get a message similar to: "Entrez Direct has been successfully downloaded and installed."
-
-### Step 6: Move EDirect To Program File
+### Step 6: Move EDirect To Program File  
 
   1. Open terminal.  
   2. Type in:  
-     cd
-  No messege should apear.
-  3. Now you will copy to path to where EDirect is saved.  
-     Type in:  
-     find . -type d -name "edirect" 2>/dev/null
-  4. Copy and save for later the path you got from after the ./  
-     Example: If you got: ./edirect -Copy: edirect
-  5. Now you will copy to path to your blast folder in program folder:  
-     Type in:  
-     find . -type d -name "blast" 2>/dev/null
-
-     Notice your path will end with /program_group6/blast
-  6. Copy and save for later the path you got from after the ./
-     Example: If you got: ./Desktop/bioinformatics/group_project/program_group6/blast -Copy: Desktop/bioinformatics/group_project/program_group6/blast
-  7. Type in:
-     mv (path from 4) (path from 6)
-     For example, for me:
-     mv edirect Desktop/bioinformatics/group_project/program_group6/blast
-
-### Step 7: Install Required Libraries
-  1. Open terminal and type:
-     cd
-  2. Type:
-     pip install biopython pandas
-
-### Step 8: Verify Installations
-  1. Go to blast folder inside program_group6 folder. Make sure you have inside a folder named "bin", with many files inside, and a folder named "edirect" (among others).
+     cd  
+  No messege should apear.  
+  3. Now you will copy to path to where EDirect is saved.    
+     Type in:   
+     find . -type d -name "edirect" 2>/dev/null  
+  4. Copy and save for later the path you got from after the ./    
+     Example: If you got: ./edirect -Copy: edirect  
+  5. Now you will copy to path to your blast folder in program folder:    
+     Type in:    
+     find . -type d -name "blast" 2>/dev/null  
   
-  2. a. Open terminal and type:
-        python3
-     b. Type each line, one by one, press enter after each line:
+     Notice your path will end with /program_group6/blast  
+  6. Copy and save for later the path you got from after the ./  
+     Example: If you got: ./Desktop/bioinformatics/group_project/program_group6/blast -Copy: Desktop/bioinformatics/group_project/program_group6/blast  
+  7. Type in:  
+     mv (path from 4) (path from 6)  
+     For example, for me:  
+     mv edirect Desktop/bioinformatics/group_project/program_group6/blast  
+ 
+### Step 7: Install Required Libraries  
+  1. Open terminal and type:  
+     cd  
+  2. Type:  
+     pip install biopython pandas  
 
-        from Bio import Entrez
-        from Bio import SeqIO
-        from Bio.Blast import NCBIXML
-        import sys
-        import pandas as pd
-        import os
+### Step 8: Verify Installations  
+  1. Go to blast folder inside program_group6 folder. Make sure you have inside a folder named "bin", with many files inside, and a folder named "edirect" (among others).  
+    
+  2. a. Open terminal and type:  
+        python3  
+     b. Type each line, one by one, press enter after each line:  
+  
+        from Bio import Entrez  
+        from Bio import SeqIO   
+        from Bio.Blast import NCBIXML  
+        import sys  
+        import pandas as pd  
+        import os   
+  
+     If there are no error messages, the libraries are successfully installed.  
+  
+# RUN PROGRAM #  
 
-     If there are no error messages, the libraries are successfully installed.
+1. Open terminal and type  
+   cd  
+2. Type in:  
+   find . -type d -name "code" 2>/dev/null  
+  
+   Again, Copy and save for later the path you got from after the ./  
+   Notice your path will end with /program_group6/code  
+     
+3. Type in:  
+   bash run_program.sh  
+  
+You will now be welcomed in the main menu.  
+  
+# USING THE PROGRAM (PIPELINE) #  
+  
+Using the program is streight forward.   
+  
+Option 1  
+Results saved in foler insise code.  
+After each use, move/delete the folder since another run will add to text.  
+  
+Option 2  
+Results saved in folder inside code.  
+After each use, move/delete the folder since another run will add to text and overwrite csv.  
+  
+Option 3  
 
-# RUN PROGRAM #
+  
+### Important Notes - must read  
+  
+Whenever you are asked, ensure that the FASTA files for protein sequences are stored in the "data" folder.  
+A fasta file must end with fasta or faa  
 
-1. Open terminal and type
-   cd
-2. Type in:
-   find . -type d -name "code" 2>/dev/null
+# ACKNOWLEDGMENTS #  
+  
+This project was created by the amazing contributers:  
+  
+Sapir developed the python and bash script parts regarding the structure and running of the program. She also wrote the manual on how to properly install and run the program (README). Her expertise ensures a user-friendly experience, guiding users through a smooth program execution.  
 
-   Again, Copy and save for later the path you got from after the ./
-   Notice your path will end with /program_group6/code
-   
-3. Type in:
-   bash run_program.sh
+Angela developed the code for running the scripts using programs such as blast. She also ..... (results for analysis)  
 
-You will now be welcomed in the main menu.
-
-# USING THE PROGRAM (PIPELINE) #
-
-Using the program is streight forward. 
-
-Option 1
-Results saved in foler insise code.
-After each use, move/delete the folder since another run will add to text.
-
-Option 2
-Results saved in folder inside code.
-After each use, move/delete the folder since another run will add to text and overwrite csv.
-
-Option 3
-
-
-### Important Notes - must read
-
-Whenever you are asked, ensure that the FASTA files for protein sequences are stored in the "data" folder.
-A fasta file must end with fasta or faa
-
-# ACKNOWLEDGMENTS #
-
-This project was created by the amazing contributers:
-
-Sapir developed the python and bash script parts regarding the structure and running of the program. She also wrote the manual on how to properly install and run the program (README). Her expertise ensures a user-friendly experience, guiding users through a smooth program execution.
-
-Angela developed the code for running the scripts using programs such as blast. She also ..... (results for analysis)
-
-Both of them made the code compatible for both mac and windows users.
-פ
-
+Both of them made the code compatible for both mac and windows users.  
     
   
 
