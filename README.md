@@ -80,29 +80,35 @@ Such as "what is your file name". The program will do the rest behind the scenes
      cd  
   No messege should apear.  
   3. Now you will copy to path to where EDirect is saved.    
-     Type in and press Enter:   
-     find . -type d -name "edirect" 2>/dev/null  
+     Type in and press Enter:
+       
+     find . -type d -name "edirect" 2>/dev/null
+       
   4. Copy and save for later the path you got from after the ./    
      Example: If you got: ./edirect -Copy: edirect  
   5. Now you will copy to path to your blast folder in program folder:    
-     Type in and press Enter:    
-     find . -type d -name "blast" 2>/dev/null    
-    
+     Type in and press Enter:
+       
+     find . -type d -name "blast" 2>/dev/null
+       
      Notice your path will end with /program_group6/blast  
   6. Copy and save for later the path you got from after the ./  
      Example:  
      If you got: ./Desktop/bioinformatics/group_project/program_group6/blast  
      -Copy:        Desktop/bioinformatics/group_project/program_group6/blast    
-  8. Type in and press Enter:  
-     mv (path from 4) (path from 6)  
+  7. Type in and press Enter:
+        
+     mv (path from 4) (path from 6)
+       
      For example, for me:  
      mv edirect Desktop/bioinformatics/group_project/program_group6/blast  
  
 ### Step 7: Install Required Libraries  
   1. Open terminal (step 4), type and press Enter:  
      cd  
-  2. Type and press Enter:  
-     pip install biopython pandas  
+  2. Type and press Enter:
+       
+     pip install biopython pandas    
 
 ### Step 8: Verify Installations  
   1. Go to blast folder inside program_group6 folder. Make sure you have inside a folder named "bin", with many files inside, and a folder named "edirect" (among others).  
