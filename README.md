@@ -58,7 +58,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 5: Install EDirect  
 
-  To install the EDirect software, open terminal type one of the following and press Enter:  
+  To install the EDirect software, open terminal (step 4) type one of the following and press Enter:  
 
   sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"  
 
@@ -75,7 +75,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
 
 ### Step 6: Move EDirect To Program File  
 
-  1. Open terminal.  
+  1. Open terminal (step 4).  
   2. Type in and press Enter:  
      cd  
   No messege should apear.  
@@ -99,7 +99,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
      mv edirect Desktop/bioinformatics/group_project/program_group6/blast  
  
 ### Step 7: Install Required Libraries  
-  1. Open terminal, type and press Enter:  
+  1. Open terminal (step 4), type and press Enter:  
      cd  
   2. Type and press Enter:  
      pip install biopython pandas  
@@ -107,7 +107,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
 ### Step 8: Verify Installations  
   1. Go to blast folder inside program_group6 folder. Make sure you have inside a folder named "bin", with many files inside, and a folder named "edirect" (among others).  
     
-  2. a. Open terminal, type and press Enter:  
+  2. a. Open terminal (step 4), type and press Enter:  
         python3  
      b. Type each line, one by one, press enter after each line:  
   
@@ -122,7 +122,7 @@ Such as "what is your file name". The program will do the rest behind the scenes
   
 # RUN PROGRAM #  
 
-1. Open terminal, type and press Enter:
+1. Open terminal (step 4), type and press Enter:
    cd  
 2. Type in and press Enter:  
    find . -type d -name "code" 2>/dev/null  
