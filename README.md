@@ -1,6 +1,6 @@
 # INTRODUCTION #  
 
-This is a user-friendly program designed for to perform various tasks related to gene analysis.
+This is a user-friendly program designed to perform various tasks related to gene analysis.
 This all-in-one solution operates from a single file, utilizing a collection of Python functions stored in a separate script. No coding experience is necessary – just follow the straightforward installation process and instructions to unlock a range of tasks related to gene analysis effortlessly.  
 When executing the program, you'll be greeted by an intuitive menu presenting the following options:  
   
