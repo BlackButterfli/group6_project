@@ -159,21 +159,42 @@ Tip: Save the  commands from steps 1, 3 and 5.
 Next time, all you have to do is open terminal and do 1, 3, 5 to run the program.  
   
 # USING THE PROGRAM (PIPELINE) #  
- ![PIPELINE](https://github.com/BlackButterfli/group6_project/assets/92859243/31a32d29-fde0-45f9-a6f5-5dda225c3ae8)
+
+![PIPELINE](https://github.com/BlackButterfli/group6_project/assets/92859243/3d7f8c82-ec55-408a-8e00-0a0a01662385)
 
 
 Using the program is streight forward.   
   
-Option 1  
-Results saved in foler insise code.  
-After each use, move/delete the folder since another run will add to text.  
+**Option 1**
+After making sure you set the program right (step 1), and data folder contains the fasta files of Yersinia, you only have to choose this option.  
+You will get the results we got from blast and used in our analysis report in 3 forms:
+1. The results would be printed to your screen., and saved as CSV and TEXT files.  
+2. A CSV, a short version with just few elements, an overview for a quick glance.  
+3. A TEXT file.
+The CSV and TEXT files will be saved in foler "option1_results" insise "code" folder.    
+After each use, move/delete the folder since another run will add to text (you will have a text files with the same results twice or more).   
+
   
-Option 2  
-Results saved in folder inside code.  
-After each use, move/delete the folder since another run will add to text and overwrite csv.  
-  
-Option 3  
-Mention that it is NOT case sensitive.
+**Option 2**
+1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
+   The program will ask for the name of the file, and will ask again if the name provided does not exist.   
+   At this point, you can go back to the main menu by entering "end".  
+2. Then the program will ask for the protein ID you want to check in the fasta file.  
+   It will use Entrez Direct to retrive its sequence, and if it did not find a match - it will let you know and ask again to enter ID.  
+   At this point, you can go back to the main menu by entering "end".  
+3. You will get the same results as in option 1, saved in foler "option2_results" inside "code" folder.   
+   After each use, move/delete the folder since another run will add to text and overwrite csv.  
+
+personal note: All unnecessary files created from any step are automatically deleted.
+
+**Option 3** 
+1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
+   The program will ask for the name of the file, and will ask again if the name provided does not exist.   
+   At this point, you can go back to the main menu by entering "end".
+2. Then the program will ask for the protein ID you want to retrieve its sequence from the fasta file.
+   The ID does not have to be case sensitive.  
+   At this point, you can go back to the main menu by entering "end".
+3. If the ID exists you will get its sequence, if not, you will be asked for an ID again.
 
   
 ### Important Notes - must read  
