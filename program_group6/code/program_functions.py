@@ -237,7 +237,7 @@ def fasta_file_path():
     If not, it will let the user try again.
     
     Parameters:
-    - file_path (str): The name to the FASTA file that is saved in "data" folder inside the program folder program_group6.
+    - file_path (str): The name to the FASTA file that is saved in "data" folder inside the program folder 'program_group6'.
 
     Returns:
     - dict: A dictionary where keys are sequence IDs and values are sequences.
@@ -247,7 +247,7 @@ def fasta_file_path():
         try:
             # Get the file path from user input. Input brings back a str.
             print('\033[4m' + "\nPlease enter you fasta file name as followng:\n" + '\033[0m')
-            print("~Please save your fasta file in the folder 'data' inside the program file 'program', ends with .faa or .fasta, as exlained in manual.")
+            print("~Please save your fasta file in the folder 'data' inside the program file 'program_group6', ends with .faa or .fasta, as exlained in manual.")
             print("\033[95m" + "To go back to the main menu, enter 'end'" + "\033[0m")
             file_path = input("Enter the name of your FASTA file, do not use quotations: ")
             
