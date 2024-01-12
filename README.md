@@ -163,7 +163,13 @@ Next time, all you have to do is open terminal and do 1, 3, 5 to run the program
 ![PIPELINE](https://github.com/BlackButterfli/group6_project/assets/92859243/3d7f8c82-ec55-408a-8e00-0a0a01662385)
 
 
-Using the program is streight forward.   
+**HOW TO USE THE PROGRAM**  
+Using the program is streight forward.  
+After running it, all you have to do is choose one of the options of the main menu.  
+If you will choose an option that does not exist, you will be asked to choose again.  
+At this point, you can exit the program by entering "end".  
+
+
   
 **Check for 4 Genes in New Yersinia (Option 1)**   
 After making sure you set the program right (step 1), and data folder contains the fasta files of Yersinia, you only have to choose this option.  
