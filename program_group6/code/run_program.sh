@@ -15,7 +15,7 @@ option_1()
 mkdir option1_results
 pathway="option1_results/results.csv"
 
-# Retrieves protein seuquences using protein IDS to create database
+# Retrieves protein sequences using protein IDS to create database
 esearch -db protein -query "CAI77377.1 OR CAI77378.1 OR CAI77379.1 OR SOH98281.1" | efetch -format fasta > ../data/proteins.fasta
 
 # Combines the two NewYersinia files into 1 fasta file
