@@ -38,6 +38,7 @@ In fact, except from necessary installations, the user does not need to know or 
   If you don't have Python installed, you can download it from the official Python website.   
   https://www.python.org/downloads/  
   During installation, make sure to check the box that says "Add Python to PATH."   
+  Make sure to download the latest version of Python (Python 3 and above). 
 
 ### Step 3: Install Blast  
 
