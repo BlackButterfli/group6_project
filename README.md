@@ -159,7 +159,9 @@ Tip: Save the  commands from steps 1, 3 and 5.
 Next time, all you have to do is open terminal and do 1, 3, 5 to run the program.  
   
 # USING THE PROGRAM (PIPELINE) #  
-  
+ ![PIPELINE](https://github.com/BlackButterfli/group6_project/assets/92859243/31a32d29-fde0-45f9-a6f5-5dda225c3ae8)
+
+
 Using the program is streight forward.   
   
 Option 1  
