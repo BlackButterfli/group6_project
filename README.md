@@ -1,7 +1,7 @@
 # INTRODUCTION #
 
-This program runs from one file, utilizing a set of Python functions stored in a separate script to perform various tasks related to gene analysis. 
-When executing the program, you have a main menu with 4 options:
+This program runs from one file, utilizing a set of Python functions stored in a separate script to perform various tasks related to gene analysis.  
+When executing the program, you see a menu with the following options:
 
 **Check for 4 Genes in New Yersinia (Option 1):**
   * This option allows you to see how we extracted results (and extract yourself) about the four specific genes and if are present in new Yersinia.
