@@ -155,7 +155,7 @@ In fact, except from necessary installations, the user does not need to know or 
   
 You will now be welcomed in the main menu.  
 
-Tip: Save the  commands from steps 1, 3 and 5.  
+Tip: Save the  commands you entered from steps 1, 3 and 5.  
 Next time, all you have to do is open terminal and do 1, 3, 5 to run the program.  
   
 # USING THE PROGRAM (PIPELINE) #  
