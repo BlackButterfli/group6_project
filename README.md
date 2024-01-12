@@ -9,7 +9,7 @@ When executing the program, you have a main menu with 4 options:
 **Check Any Protein In Fasta File (Option 2):** 
   * You can use this option to check any protein of your own in any FASTA file and have similar results like in option 1.
 
-**Retrieve Sequence By ID (Option 3):**
+**Retrieve Protein Sequence By Its ID (Option 3):**
   * You can retrieve a sequence based on its ID from a specified FASTA file.
 
 **Exit (Option 'end'):**
@@ -193,7 +193,7 @@ After each use, move/delete the folder since another run will add to text (you w
 
 personal note: All unnecessary files created from any step are automatically deleted.
 
-**Retrieve Sequence By ID (Option 3)**   
+**Retrieve Pritein Sequence By Its ID (Option 3)**   
 1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
    The program will ask for the name of the file, and will ask again if the name provided does not exist.   
    At this point, you can go back to the main menu by entering "end".
