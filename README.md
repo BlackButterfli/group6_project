@@ -30,8 +30,7 @@ DO NOT CHANGE ANY NAMES OF FOLDER AND FILES, DO NOT MOVE ANY FOLDER OR FILE.
 
 Personal note on this step: The reason the program is ordered specifically is to ensure both mac and windows can run it, and to make it a one click running program
 (which means, everything you need is in the same code file, no need to maneuver between codes).
-In fact, except from necessary installations, the user does not need to know or understand any coding. Only follow easy instructions,
-Such as "what is your file name". The program will do the rest behind the scenes.
+In fact, except from necessary installations, the user does not need to know or understand any coding. All the user has to do is follow easy instructions, such as "what is your file name". The program will do the rest behind the scenes.
 
 
 ### Step 2: Install Python
