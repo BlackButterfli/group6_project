@@ -212,6 +212,7 @@ How to use FASTA files in the program:
 4. Avoid using the same filename for multiple files to prevent conflicts.
 
 Remove results folders after each use:  
+  
 When you use option 1 or option 2, your results would be created in a folder inside "code" folder.   
 You must move the results folder with all its content from "code" folder after everytime you get results.  
 If you dont, the next time you try and have results, they will be added to previous results and/or rewrtie the previous results.
