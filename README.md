@@ -169,8 +169,8 @@ After running it, all you have to do is choose one of the options of the main me
 If you will choose an option that does not exist, you will be asked to choose again.  
 At this point, you can exit the program by entering "end".  
 
+**HOW TO USE EACH OPTION**  
 
-  
 **Check for 4 Genes in New Yersinia (Option 1)**   
 After making sure you set the program right (step 1), and data folder contains the fasta files of Yersinia, you only have to choose this option.  
 You will get the results we got from blast and used in our analysis report in 3 forms:
