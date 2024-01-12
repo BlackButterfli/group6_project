@@ -6,10 +6,10 @@ When executing the program, you have a main menu with 4 options:
 **Check for 4 Genes in New Yersinia (Option 1):**
   * This option allows you to see how we extracted results (and extract yourself) about the four specific genes and if are present in new Yersinia.
 
-**Check Any Protein in Fasta File (Option 2):** 
+**Check Any Protein In Fasta File (Option 2):** 
   * You can use this option to check any protein of your own in any FASTA file and have similar results like in option 1.
 
-**Retrieve Sequence by ID (Option 3):**
+**Retrieve Sequence By ID (Option 3):**
   * You can retrieve a sequence based on its ID from a specified FASTA file.
 
 **Exit (Option 'end'):**
@@ -181,7 +181,7 @@ The CSV and TEXT files will be saved in foler "option1_results" insise "code" fo
 After each use, move/delete the folder since another run will add to text (you will have a text files with the same results twice or more).   
 
   
-**Check Any Protein in Fasta File (Option 2)**  
+**Check Any Protein In Fasta File (Option 2)**  
 1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
    The program will ask for the name of the file, and will ask again if the name provided does not exist.   
    At this point, you can go back to the main menu by entering "end".  
@@ -193,7 +193,7 @@ After each use, move/delete the folder since another run will add to text (you w
 
 personal note: All unnecessary files created from any step are automatically deleted.
 
-**Retrieve Sequence by ID (Option 3)**   
+**Retrieve Sequence By ID (Option 3)**   
 1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
    The program will ask for the name of the file, and will ask again if the name provided does not exist.   
    At this point, you can go back to the main menu by entering "end".
@@ -203,7 +203,7 @@ personal note: All unnecessary files created from any step are automatically del
 3. If the ID exists you will get its sequence, if not, you will be asked for an ID again.
 
   
-### Important Notes - must read  
+### Important Notes - MUST READ 
 
 How to use FASTA files in the program: 
 1. Always store protein sequence FASTA files in the designated "data" folder insidie "program_group6" folder. 
