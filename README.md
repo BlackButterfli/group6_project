@@ -165,7 +165,7 @@ Next time, all you have to do is open terminal and do 1, 3, 5 to run the program
 
 
 **HOW TO USE THE PROGRAM**  
-Using the program is streight forward.  
+Using the program is straightforward.  
 After running it, all you have to do is choose one of the options of the main menu.  
 If you will choose an option that does not exist, you will be asked to choose again.  
 At this point, you can exit the program by entering "end".  
