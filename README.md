@@ -165,7 +165,7 @@ Next time, all you have to do is open terminal and do 1, 3, 5 to run the program
 
 Using the program is streight forward.   
   
-**Option 1**
+**Check for 4 Genes in New Yersinia (Option 1)**   
 After making sure you set the program right (step 1), and data folder contains the fasta files of Yersinia, you only have to choose this option.  
 You will get the results we got from blast and used in our analysis report in 3 forms:
 1. The results would be printed to your screen., and saved as CSV and TEXT files.  
@@ -175,7 +175,7 @@ The CSV and TEXT files will be saved in foler "option1_results" insise "code" fo
 After each use, move/delete the folder since another run will add to text (you will have a text files with the same results twice or more).   
 
   
-**Option 2**
+**Check Any Protein in Fasta File (Option 2)**  
 1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
    The program will ask for the name of the file, and will ask again if the name provided does not exist.   
    At this point, you can go back to the main menu by entering "end".  
@@ -187,7 +187,7 @@ After each use, move/delete the folder since another run will add to text (you w
 
 personal note: All unnecessary files created from any step are automatically deleted.
 
-**Option 3** 
+**Retrieve Sequence by ID (Option 3)**   
 1. First you need to put your fasta file inside the folder "data" inside "code" folder.  
    The program will ask for the name of the file, and will ask again if the name provided does not exist.   
    At this point, you can go back to the main menu by entering "end".
