@@ -174,8 +174,8 @@ At this point, you can exit the program by entering "end".
 **Check for 4 Genes in New Yersinia (Option 1)**   
 After making sure you set the program right (step 1), and data folder contains the fasta files of Yersinia, you only have to choose this option.  
 You will get the results we got from blast and used in our analysis report in 3 forms:
-1. The results would be printed to your screen., and saved as CSV and TEXT files.  
-2. A CSV, a short version with just few elements, an overview for a quick glance.  
+1. Results printed(shown) to your screen. 
+2. A CSV as an overview, few elements for a quick glance.  
 3. A TEXT file.
 The CSV and TEXT files will be saved in foler "option1_results" insise "code" folder.    
 After each use, move/delete the folder since another run will add to text (you will have a text files with the same results twice or more).   
