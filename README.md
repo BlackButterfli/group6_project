@@ -18,7 +18,7 @@ This toolkit is designed for genomic sequence analysis and visualization, specif
 
 This toolkit was developed as part of a university project aimed at finding pathogen islands in new *Yersinia* bacteria strains. *Yersinia* is a genus of bacteria known for causing diseases such as plague (caused by *Yersinia pestis*) and gastroenteritis (caused by *Yersinia enterocolitica*). 
 The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains. The goals are:
-1. Determine if the four pathogenic genes are present in the new strain.
+1. Determine if four pathogenic genes are present in the new strain.
 2. Assess gene conservation compared to other *Yersinia* strains.
 3. To be able to retrieve the specific protein sequence from the results (or any other in the future).
 4. Understand and analyze different outputs.
@@ -28,7 +28,7 @@ These genes were referenced from a scientific article. [Include citation if avai
 ## Features
 
 - **Gene Detection**: Check for the presence of specific genes in new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
-- **Protein Search**: Analyze any protein sequence in FASTA files.
+- **Protein Search**: Analyze and determine the presence of any protein is in any strain. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
 - **Sequence Retrieval**: Retrieve sequences by ID from FASTA files.
 - **Analysis Pipeline**: Framework for future gene analysis.
 
