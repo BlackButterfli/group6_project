@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a comprehensive toolkit for genomic sequence analysis and visualization, specifically designed for detecting pathogen islands in unknown novel strains. The primary focus is on analyzing genomic data of Yersinia strains to identify the presence of pathogen islands.
+This project is a comprehensive toolkit for genomic sequence analysis and visualization, specifically designed for detecting pathogen islands in unknown novel strains. The primary focus is on analyzing genomic data of *Yersinia* bacteria strains to identify the presence of pathogen islands.
 
 ## Table of Contents
 
@@ -16,12 +16,12 @@ This project is a comprehensive toolkit for genomic sequence analysis and visual
 
 ## Project Background
 
-This toolkit was developed as part of a university project aimed at finding pathogen islands in new Yersinia strains. The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains.
+This toolkit was developed as part of a university project aimed at finding pathogen islands in new *Yersinia* bacteria strains. *Yersinia* is a genus of bacteria known for causing diseases such as plague (caused by *Yersinia pestis*) and gastroenteritis (caused by *Yersinia enterocolitica*). The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains.
 
 ## Features
 
 - Data preprocessing for pathogen genomic sequences
-- Detection and analysis of pathogen islands in Yersinia strains
+- Detection and analysis of pathogen islands in *Yersinia* strains
 - Visualization of genomic data
 - Statistical analysis of pathogen genomic data
 
@@ -31,6 +31,7 @@ To install the required dependencies, run:
 
 ```sh
 pip install -r requirements.txt
+
 
 
 
