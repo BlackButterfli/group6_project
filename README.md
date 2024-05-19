@@ -1,3 +1,41 @@
+# Pathogen Island Detection Toolkit
+
+## Description
+
+This project is a comprehensive toolkit for genomic sequence analysis and visualization, specifically designed for detecting pathogen islands in unknown novel strains. The primary focus is on analyzing genomic data of Yersinia strains to identify the presence of pathogen islands.
+
+## Table of Contents
+
+- [Project Background](#project-background)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Background
+
+This toolkit was developed as part of a university project aimed at finding pathogen islands in new Yersinia strains. The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains.
+
+## Features
+
+- Data preprocessing for pathogen genomic sequences
+- Detection and analysis of pathogen islands in Yersinia strains
+- Visualization of genomic data
+- Statistical analysis of pathogen genomic data
+
+## Installation
+
+To install the required dependencies, run:
+
+```sh
+pip install -r requirements.txt
+
+
+
+
+
 # INTRODUCTION #  
 
 This is a user-friendly program designed to perform various tasks related to gene analysis.
