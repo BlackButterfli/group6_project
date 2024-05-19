@@ -18,9 +18,9 @@ This toolkit is designed for genomic sequence analysis and visualization, specif
 
 This toolkit was developed to support biologists in their research with data analyses and tools developments. They have recently isolated and sequenced a new strain of Yersinia bacteria and they suspect that 4 genes are involved in a new phenotype observed in their samples. The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains. 
 
-The 4 genes were referenced from a scientific article and termed yRz1 yRz elyY holY.
+The 4 genes were referenced from a scientific article and termed yRz1 yRz elyY holY:
 
-Katharina Springer, Sandra Reuter, Mandy Knüpfer, Lukas Schmauder, Philipp-Albert Sänger, Angela Felsl, and Thilo M. Fuchs. "Activity of a Holin-Endolysin System in the Insecticidal Pathogenicity Island of Yersinia enterocolitica." *Journal of Bacteriology*, edited by Victor J. DiRita, Michigan State University. DOI: [10.1128/JB.00180-18](https://doi.org/10.1128/JB.00180-18)
+Katharina Springer et al. "Activity of a Holin-Endolysin System in the Insecticidal Pathogenicity Island of Yersinia enterocolitica." *Journal of Bacteriology*, edited by Victor J. DiRita, Michigan State University. DOI: [10.1128/JB.00180-18](https://doi.org/10.1128/JB.00180-18)
 
 ## Features
 
