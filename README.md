@@ -30,7 +30,6 @@ These genes were referenced from a scientific article. [Include citation if avai
 - **Gene Detection**: Check for the presence of specific genes in new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
 - **Protein Search**: Analyze and determine the presence of any protein is in any strain. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
 - **Sequence Retrieval**: Retrieve sequences by ID from FASTA files.
-- **Analysis Pipeline**: Framework for future gene analysis.
 
 ## Installation
 
