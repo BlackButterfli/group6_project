@@ -128,10 +128,10 @@ If there are no errors, the installation is successful.
 
 Contributions are welcome!
 
-Acknowledgements:  
+**Acknowledgements:**    
 **Sapir Mardan** developed the Python and Bash scripts for the program structure and execution. She also authored the README and the macOS manual, ensuring macOS compatibility.
 
-**Angela Hsu** created developed Bash scripts, insights on running BLAST and ensured Windows compatibility.
+**Angela Hsu** developed code for  Bash scripts insights on running BLAST and ensured Windows compatibility.
 
 **Nicole Flores** and **Matthew Raj** provided valuable assistance throughout various sections of this project not presented here. Their help is greatly appreciated.
 
@@ -140,19 +140,4 @@ Acknowledgements:
 ## License
 
 This project is licensed under the MIT License.
-
-### Important Notes - MUST READ 
-
-How to use FASTA files in the program: 
-1. Always store protein sequence FASTA files in the designated "data" folder insidie "program_group6" folder. 
-2. Ensure that your FASTA files have proper extensions such as ".fasta" or ".faa". 
-3. When entering the name of the file to the program, include the extension.
-4. Avoid using the same filename for multiple files to prevent conflicts.
-
-Remove results folders after each use:  
-  
-When you use option 1 or option 2, your results would be created in a folder inside "code" folder.   
-You must move the results folder with all its content from "code" folder after everytime you get results.  
-If you dont, the next time you try and have results, they will be added to previous results and/or rewrtie the previous results.
-  
 
