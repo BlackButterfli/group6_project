@@ -128,10 +128,10 @@ If there are no errors, the installation is successful.
 
 Contributions are welcome!
 
-Acknowledgements:
+Acknowledgements:  
 **Sapir Mardan** developed the Python and Bash scripts for the program structure and execution. She also authored the README and the macOS manual, ensuring macOS compatibility.
 
-**Angela Hsu** created the BLAST code and ensured Windows compatibility.
+**Angela Hsu** created developed Bash scripts, insights on running BLAST and ensured Windows compatibility.
 
 **Nicole Flores** and **Matthew Raj** provided valuable assistance throughout various sections of this project not presented here. Their help is greatly appreciated.
 
