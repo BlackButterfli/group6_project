@@ -16,20 +16,17 @@ This toolkit is designed for genomic sequence analysis and visualization, specif
 
 ## Project Background
 
-This toolkit was developed as part of a university project aimed at finding pathogen islands in new *Yersinia* bacteria strains. *Yersinia* is a genus of bacteria known for causing diseases such as plague (caused by *Yersinia pestis*) and gastroenteritis (caused by *Yersinia enterocolitica*). 
-The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains. The goals are:
-1. Determine if four pathogenic genes are present in the new strain.
-2. Assess gene conservation compared to other *Yersinia* strains.
-3. To be able to retrieve the specific protein sequence from the results (or any other in the future).
-4. Understand and analyze different outputs.
+This toolkit was developed to support biologists in their research with data analyses and tools developments. They have recently isolated and sequenced a new strain of Yersinia bacteria and they suspect that 4 genes are involved in a new phenotype observed in their samples. The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains. 
 
 These genes were referenced from a scientific article. [Include citation if available.]
 
 ## Features
 
-- **Gene Detection**: Check for the presence of specific genes in new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
+This all-in-one solution operates from a single file, utilizing a collection of Python functions stored in a separate script. No coding experience is necessary – just follow the straightforward installation process and instructions to unlock a range of tasks related to gene analysis effortlessly. When executing the program, you'll be greeted by an intuitive menu presenting the following options: 
+
+- **Gene Detection**: Determine if four specific pathogenic genes are present in the new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
 - **Protein Search**: Analyze and determine the presence of any protein is in any strain. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
-- **Sequence Retrieval**: Retrieve sequences by ID from FASTA files.
+- **Sequence Retrieval**: Retrieve specific protein sequences by ID from a FASTA files.
 
 ## Installation
 
@@ -39,28 +36,17 @@ pip install -r requirements.txt
 
 ## Usage
 
+1. Clone the repository:
 git clone https://github.com/your-username/pathogen-island-detection-toolkit.git
+
+2. Change into the project directory:
 cd pathogen-island-detection-toolkit
 
+3. Run the program:
+./run_program.sh
 
 
-# INTRODUCTION #  
 
-This is a user-friendly program designed to perform various tasks related to gene analysis.
-This all-in-one solution operates from a single file, utilizing a collection of Python functions stored in a separate script. No coding experience is necessary – just follow the straightforward installation process and instructions to unlock a range of tasks related to gene analysis effortlessly.  
-When executing the program, you'll be greeted by an intuitive menu presenting the following options:  
-  
-**Check for 4 Genes in New Yersinia (Option 1):**
-  * This option allows you to see how we extracted results (and extract yourself) about the four specific genes and if are present in new Yersinia.
-
-**Check Any Protein In Fasta File (Option 2):** 
-  * You can use this option to check any protein of your own in any FASTA file and have similar results like in option 1.
-
-**Retrieve Sequence By Its ID (Option 3):**
-  * You can retrieve a sequence based on its ID from a specified FASTA file.
-
-**Exit (Option 'end'):**
-  * At any point you can type in "end" to go back to the main menu, or if you are in the main menu - enter ׳end׳ to exit the program.
 
 
 # INSTALLATION #
