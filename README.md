@@ -46,8 +46,8 @@ Automated installation:
     ```
 3. Run the installation script:
     ```bash
-    For macOS: ./install_mac.sh
-    For ubunto: ./install_ubuntu.sh
+    ./install_mac.sh
+    ./install_ubuntu.sh
     ```
     
 4. If needed make script executable:
