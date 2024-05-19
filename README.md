@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a comprehensive toolkit for genomic sequence analysis and visualization, specifically designed for detecting pathogen islands in unknown novel strains. The primary focus is on analyzing genomic data of *Yersinia* bacteria strains to identify the presence of pathogen islands.
+This toolkit is designed for genomic sequence analysis and visualization, specifically for detecting pathogen islands in novel *Yersinia* strains. Developed as part of a university project, it aims to identify and analyze specific genes of interest in these bacterial strains.
 
 ## Table of Contents
 
@@ -16,23 +16,29 @@ This project is a comprehensive toolkit for genomic sequence analysis and visual
 
 ## Project Background
 
-This toolkit was developed as part of a university project aimed at finding pathogen islands in new *Yersinia* bacteria strains. *Yersinia* is a genus of bacteria known for causing diseases such as plague (caused by *Yersinia pestis*) and gastroenteritis (caused by *Yersinia enterocolitica*). The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains.
+This toolkit was developed as part of a university project aimed at finding pathogen islands in new *Yersinia* bacteria strains. *Yersinia* is a genus of bacteria known for causing diseases such as plague (caused by *Yersinia pestis*) and gastroenteritis (caused by *Yersinia enterocolitica*). 
+The assignment involved preprocessing genomic data, performing sequence alignment, and visualizing the results to determine if pathogen islands are present in the given strains. The goals are:
+1. Determine if the four genes of the lysis cassette are present in the new strain.
+2. Assess gene conservation compared to other *Yersinia* strains.
+3. Retrieve specific protein sequences.
+4. Provide a pipeline for analyzing other genes of interest.
+5. Understand and analyze different outputs.
+
+These genes were referenced from a scientific article. [Include citation if available.]
 
 ## Features
 
-- Data preprocessing for pathogen genomic sequences
-- Detection and analysis of pathogen islands in *Yersinia* strains
-- Visualization of genomic data
-- Statistical analysis of pathogen genomic data
+- **Gene Detection**: Check for the presence of the four specific genes in the new *Yersinia* strains.
+- **Protein Search**: Analyze any protein sequence in FASTA files.
+- **Sequence Retrieval**: Retrieve sequences by ID from FASTA files.
+- **Analysis Pipeline**: Framework for future gene analysis.
 
 ## Installation
 
-To install the required dependencies, run:
+Install the required dependencies:
 
 ```sh
 pip install -r requirements.txt
-
-
 
 
 
