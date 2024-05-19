@@ -30,36 +30,45 @@ This all-in-one solution operates from a single file, utilizing a collection of 
 
 ## Installation
 
-'For macOS Users'
+If using ubuntu, open ubunto files folder.
+
 To install the required dependencies manually:
 pip install -r requirements.txt
 
-Automated Installation:
+Automated installation:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/pathogen-genomic-analysis-toolkit.git
+    git clone https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit.git
     ```
 2. Change into the project directory:
     ```bash
     cd pathogen-genomic-analysis-toolkit
     ```
 3. Run the installation script:
+   <u>MacOS</u>
     ```bash
-    ./install_macos.sh
+    ./install_mac.sh
     ```
-
-chmod +x install_macos.sh
+    <u>Ubuntu</u>
+    ```bash
+    ./install_mac.sh
+    ```
+5. If needed make script executable:
+    ```bash
+    chmod +x install_mac.sh
+    chmod +x install_ubuntu.sh
+    ```
 
 ## Usage
 
-1. Clone the repository:
+1. Clone the repository (if not already done):
 git clone https://github.com/your-username/pathogen-island-detection-toolkit.git
 
 2. Change into the project directory:
 cd pathogen-island-detection-toolkit
 
 3. Run the program:
-./run_program.sh
+./code/run_program.sh
 
 
 
