@@ -26,8 +26,8 @@ Katharina Springer, Sandra Reuter, Mandy Knüpfer, Lukas Schmauder, Philipp-Albe
 
 This all-in-one solution operates from a single file, utilizing a collection of Python functions stored in a separate script. No coding experience is necessary – just follow the straightforward installation process and instructions to unlock a range of tasks related to gene analysis effortlessly. When executing the program, you'll be greeted by an intuitive menu presenting the following options: 
 
-- **Gene Detection**: Determine if four specific pathogenic genes are present in the new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
-- **Protein Search**: Analyze and determine the presence of any protein is in any strain. For a detailed description of the output statistics, see [Output_Description.md](Output_Description.md).
+- **Gene Detection**: Determine if four specific pathogenic genes are present in the new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md]([Output_Description.md](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/blob/main/Output_Description.md)).
+- **Protein Search**: Analyze and determine the presence of any protein is in any strain, and output the results in a format similar to 'Gene Detection' option.
 - **Sequence Retrieval**: Retrieve specific protein sequences by ID from a FASTA files.
 
 ## Installation
@@ -125,17 +125,21 @@ If there are no errors, the installation is successful.
    ```
 
 ## Contribution 
-  
-This project was created by the amazing contributers:  
-  
-Sapir developed the python and bash script parts regarding the structure and running of the program. She also wrote the manual on how to properly install and run the program (README). Her expertise ensures a user-friendly experience, guiding users through a smooth program execution.  
 
-Angela developed the code for running the scripts using programs such as blast. She also ..... (results for analysis)  
+Contributions are welcome!
 
-Both of them made the code compatible for both mac and windows users.  
+Acknowledgements:
+**Sapir Mardan** developed the Python and Bash scripts for the program structure and execution. She also authored the README and the macOS manual, ensuring macOS compatibility.
+
+**Angela Hsu** created the BLAST code and ensured Windows compatibility.
+
+**Nicole Flores** and **Matthew Raj** provided valuable assistance throughout various sections of this project not presented here. Their help is greatly appreciated.
+
+**University of Bristol** for their support and resources throughout this project.
 
 ## License
 
+This project is licensed under the MIT License.
 
 ### Important Notes - MUST READ 
 
