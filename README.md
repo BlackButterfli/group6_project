@@ -33,7 +33,9 @@ This all-in-one solution operates from a single file, utilizing a collection of 
 If using ubuntu, open ubunto files folder.
 
 To install the required dependencies manually:
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 Automated installation:
 1. Clone the repository:
@@ -59,13 +61,19 @@ Automated installation:
 ## Usage
 
 1. Clone the repository (if not already done):
-git clone https://github.com/your-username/pathogen-island-detection-toolkit.git
+   ```bash
+   git clone https://github.com/your-username/pathogen-island-detection-toolkit.git
+   ```
 
 2. Change into the project directory:
-cd pathogen-island-detection-toolkit
+   ```bash
+   cd pathogen-island-detection-toolkit
+   ```
 
 3. Run the program:
-./code/run_program.sh
+   ```bash
+    ./code/run_program.sh
+   ```
 
 
 
