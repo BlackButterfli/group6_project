@@ -35,9 +35,12 @@ These genes were referenced from a scientific article. [Include citation if avai
 
 Install the required dependencies:
 
-```sh
 pip install -r requirements.txt
 
+## Usage
+
+git clone https://github.com/your-username/pathogen-island-detection-toolkit.git
+cd pathogen-island-detection-toolkit
 
 
 
