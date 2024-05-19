@@ -45,15 +45,12 @@ Automated installation:
     cd pathogen-genomic-analysis-toolkit
     ```
 3. Run the installation script:
-   <u>MacOS</u>
     ```bash
-    ./install_mac.sh
+    For macOS: ./install_mac.sh
+    For ubunto: ./install_ubuntu.sh
     ```
-    <u>Ubuntu</u>
-    ```bash
-    ./install_mac.sh
-    ```
-5. If needed make script executable:
+    
+4. If needed make script executable:
     ```bash
     chmod +x install_mac.sh
     chmod +x install_ubuntu.sh
