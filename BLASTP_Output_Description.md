@@ -33,4 +33,10 @@ The toolkit uses BLASTP to align protein sequences and detect the presence of sp
 The CSV file provides a summary of the BLASTP results, including key metrics for each gene.
 
 Sample CSV Output:
+![CSV Output](../mnt/data/image.png)
 
+### TXT File
+
+The TXT file contains detailed alignment information for each gene, showing the query sequence, subject sequence, and the match between them.
+
+Sample TXT Output:
