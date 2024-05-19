@@ -35,6 +35,9 @@ The CSV file provides a summary of the BLASTP results, including key metrics for
 Sample CSV Output:
 ![CSV Output](../mnt/data/image.png)
 
+<img width="755" alt="image" src="https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/assets/92859243/85a92bd3-f5d5-49b4-a3e7-05d7502c5911">
+
+
 ### TXT File
 
 The TXT file contains detailed alignment information for each gene, showing the query sequence, subject sequence, and the match between them.
