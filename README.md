@@ -4,6 +4,26 @@
 
 This toolkit is designed for genomic sequence analysis and visualization, specifically for detecting pathogen islands in novel *Yersinia* strains. Developed as part of a university project, it aims to identify and analyze specific genes of interest in these bacterial strains.
 
+### Main Features:
+The assigment asked to use BLAST spesifically in commend line. I have combined my experience with Python to create an easy-to-use interface that combines commend line and Python.
+
+Bash Script Features:
+** 1. Retrieve Protein Sequences:** Automatically fetches protein sequences from the NCBI protein database using specified protein IDs.
+Combine FASTA Files: Merges multiple FASTA files into a single file for easier management and analysis.
+Create BLAST Database: Converts the combined FASTA file into a local BLAST database for efficient sequence alignment.
+Perform BLAST Searches: Executes BLASTP searches to find protein-protein alignments with customizable parameters.
+Adjust and Parse Results: Uses Python scripts to adjust the BLAST output and save results in a user-friendly format.
+Clean Up Intermediate Files: Automatically removes intermediate files to keep the directory clean and organized.
+Usage
+
+Prerequisites
+NCBI E-utilities: Tools for accessing NCBI databases.
+BLAST: Local BLAST+ installation.
+Python: Python 3.x with Biopython installed.
+
+
+
+
 ## Table of Contents
 
 - [Project Background](#project-background)
