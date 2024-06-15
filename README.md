@@ -6,17 +6,16 @@ This toolkit is designed for genomic sequence analysis and visualization, specif
 
 ### Main Features:
 The assigment asked to use BLAST spesifically in commend line. I have combined my experience with Python to create an easy-to-use interface that combines commend line and Python.  
+The Python script integrates seamlessly with the bash script to run specific bioinformatics tasks and enhance the functionality of the pipeline.
   
 **Key Bash Script Features:**
-  - Create BLAST Database from FASTA files.**
+  - Create BLAST Database from FASTA files.
   - Perform BLAST Searches.
   - Retrieve Protein Sequences from NCBI Protein Database.**
   - Merges multiple FASTA files.
   - Automatically removes intermediate files to keep the directory clean and organized.
   
 **Key Python Script Features:**  
-The Python script integrates seamlessly with the bash script to run specific bioinformatics tasks.
-Key functions that enhance the functionality of the pipeline:
   - Use of Biopython Modules For Various Tasks (SeqIO, Entrez, NCBIXML).
   - Retrieve protein sequences from NCBI.
   - Parse and process BLAST results and save in a user-friendly format.
