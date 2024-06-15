@@ -51,7 +51,7 @@ This all-in-one solution operates from a single file, utilizing a collection of 
 
 ## Installation
 
-**Automated Installation**
+**Installation**
 1. Clone the repository and change into the project directory:
     ```bash
     git clone https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit.git
@@ -61,69 +61,18 @@ This all-in-one solution operates from a single file, utilizing a collection of 
     ```bash
     cd pathogen-genomic-analysis-toolkit
     ```
-3. Run the installation script:
-    ```bash
-    ./install_mac.sh
-    ./install_ubuntu.sh
+3. Run the installation script to download blast and edirect to your computer (linux/mac):
+   ```bash
+    ./install_blast_edirect.sh
     ```
-4. If needed make script executable:
+   If needed make script executable:
     ```bash
-    chmod +x install_mac.sh
-    chmod +x install_ubuntu.sh
+    chmod +x install_blast_edirect
     ```
-    
-**Manual Installation**
-1. Clone the repository and change into the project directory:
-    ```bash
-    git clone https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit.git
-    cd pathogen-genomic-analysis-toolkit
-    ```
-
-2. Install BLAST:
-    ```bash
-    BLAST_URL="https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/ncbi-blast-2.15.0+-x64-macosx.tar.gz"
-    curl -O $BLAST_URL
-    tar -xzf ncbi-blast-2.15.0+-x64-macosx.tar.gz
-    # Move the extracted folder to the project directory and rename it to 'blast'
-    mv ncbi-blast-2.15.0+ blast
-    # Clean up by removing the tarball
-    rm ncbi-blast-2.15.0+-x64-macosx.tar.gz
-    ```
-
-3. Install EDirect:
-    ```bash
-    sh -c "$(curl -fsSL https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
-    echo "export PATH=\$HOME/edirect:\$PATH" >> $HOME/.bash_profile
-    source $HOME/.bash_profile
-    # Move the folder to blast folder directory
-    mv $HOME/edirect blast
-    ```
-
-4. Install required Python libraries:
-    ```bash
-    pip install biopython pandas
-    ```
-
-5. Verify installations:
-    ```bash
-    cd blast
-    if [ -d "bin" ] && [ -d "edirect" ]; then
-        echo "BLAST and EDirect installed successfully."
-    else
-        echo "Error: BLAST or EDirect installation failed."
-        exit 1
-    fi
-
-    cd ../code
-    python3 -c "from Bio import Entrez; from Bio import SeqIO; from Bio.Blast import NCBIXML; import pandas as pd; import os; import sys"
-    if [ $? -eq 0 ]; then
-        echo "Python libraries installed successfully."
-    else
-        echo "Error: Python library installation failed."
-        exit 1
-    fi
-    ```
-
+4. Download required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 If there are no errors, the installation is successful.
 
 ## Usage
@@ -148,9 +97,9 @@ If there are no errors, the installation is successful.
 Contributions are welcome!
 
 **Acknowledgements:**    
-**Sapir Mardan** developed the Python and Bash scripts for the program structure and execution. She also authored the README and the macOS manual, ensuring macOS compatibility.
+**Sapir Mardan** developed the Python and Bash script for the program structure and execution.
 
-**Angela Hsu** developed code for  Bash scripts insights on running BLAST and ensured Windows compatibility.
+**Angela Hsu** developed code for Bash script, specifically for running BLAST and ensured Windows compatibility.
 
 **Nicole Flores** and **Matthew Raj** provided valuable assistance throughout various sections of this project not presented here. Their help is greatly appreciated.
 
