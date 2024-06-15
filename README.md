@@ -16,7 +16,7 @@ The assigment asked to use BLAST spesifically in commend line. I have combined m
   - Use of Biopython Modules For Various Tasks (SeqIO, Entrez, NCBIXML).
   - Retrieve protein sequences from NCBI.
   - Sequence Retrieval from FASTA Files. 
-  - Parse and process BLAST results and save in a user-friendly format.
+  - Parse and process BLAST results and save output in a user-friendly format.
 
 ## Table of Contents
 
