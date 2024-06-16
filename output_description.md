@@ -4,7 +4,8 @@ This document provides detailed descriptions of the output statistics generated 
 
 ## BLASTP Results
 
-The toolkit uses BLASTP to align protein sequences and detect the presence of specific genes in new *Yersinia* strains. The key output statistics include:
+The toolkit uses BLASTP to align protein sequences and detect the presence of specific genes in new *Yersinia* strains. The program opens the BLAST output file, parses out specific information, and produces a formatted output.  
+The key output statistics include:
 
 1. **E-value**:
    - The E-value represents the number of alignments expected by chance. A lower E-value indicates a more significant match. Typically, an E-value less than 0.05 is considered a good indicator of potential homology.
