@@ -22,7 +22,7 @@ The assigment asked to use BLAST spesifically in commend line. I have combined m
 
 - [Project Background](#project-background)
 - [Features](#features)
-- [Installation](#installation)
+- [Installation & Requirements](#installation-and-requirements)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
@@ -44,7 +44,15 @@ This all-in-one solution operates from a single file, utilizing a collection of 
 - **Protein Search**: Analyze and determine the presence of any protein is in any strain, and output the results in a format similar to 'Gene Detection' option.
 - **Sequence Retrieval**: Retrieve specific protein sequences by ID from a FASTA files.
 
-## Installation
+## Installation and Requirements
+
+**Requirements**
+BLAST, edirect, python3 and the following libraries:
+Biopython (Bio)
+sys
+pandas
+os
+datetime
 
 **Installation**
 1. Clone the repository and change into the project directory:
