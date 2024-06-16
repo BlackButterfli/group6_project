@@ -40,6 +40,9 @@ Katharina Springer et al. "Activity of a Holin-Endolysin System in the Insectici
 
 This all-in-one solution operates from a single file, utilizing a collection of Python functions stored in a separate script. No coding experience is necessary – just follow the straightforward installation process and instructions to unlock a range of tasks related to gene analysis effortlessly. When executing the program, you'll be greeted by an intuitive menu presenting the following options: 
 
+<img width="738" alt="image" src="https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/assets/92859243/d529deb2-385e-4ddc-86be-205d9a642d78">
+
+
 - **Gene Detection**: Determine if four specific pathogenic genes are present in the new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [Output_Description.md]([Output_Description.md](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/blob/main/Output_Description.md)).
 - **Protein Search**: Analyze and determine the presence of any protein is in any strain, and output the results in a format similar to 'Gene Detection' option.
 - **Sequence Retrieval**: Retrieve specific protein sequences by ID from a FASTA files.
