@@ -64,7 +64,7 @@ os
 datetime  
 
 **Important note:** If you are using pre-installed BLAST and/or edirect, make sure the directory of the programs are part of your system PATH. See installation bash script for more details.  
-e.g., ```bash
+e.g., ```
       export PATH=$PATH:/directory/to/blast/bin/path
       ```
 
