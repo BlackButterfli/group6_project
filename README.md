@@ -1,11 +1,17 @@
 # Pathogen Island Detection Toolkit
 
+<img width="1445" alt="image" src="https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/assets/92859243/dfeb5e92-4695-4132-9de8-f8a93a0406e3">
+
 ## Description
 
-A toolkit designed for genomic sequence analysis, specifically for detecting pathogen islands in novel *Yersinia* strains. Developed as part of a university project, it aims to identify and analyze specific genes of interest in these bacterial strains.
+An easy-to-use pipeline interface designed for genomic sequence analysis. With Python and bash scripts that integrates seamlessly, it runs various bioinformatics tasks utilizing both tools. 
+The program creates BLAST database, performs BLAST searches and parse the results to an output in a user-friendly format.  
+Developed as part of a university project, it aims to identify and analyze specific pathogen genes of interest in novel *Yersinia* bacterial strains.  
+It can be run to the specific pathogen genes or any genes of interest by the user. It also has the functionality to retrive sequence from FASTA file by an ID.  
+
 
 ### Main Features:
-The assigment asked to use BLAST spesifically in commend line. I have combined my experience with Python to create an easy-to-use interface, with Python script that integrates seamlessly with the bash script to run specific bioinformatics tasks and enhance the functionality of the pipeline.
+The assigment asked to use BLAST spesifically in commend line. I have combined my experience with Python to enhance the functionality of the pipeline.
   
 **Key Bash Script Features:**
   - Create BLAST database from FASTA files and perform BLAST searches.
@@ -40,7 +46,6 @@ Katharina Springer et al. "Activity of a Holin-Endolysin System in the Insectici
 
 This all-in-one solution operates from a single file, utilizing a collection of Python functions stored in a separate script. No coding experience is necessary – just follow the straightforward installation process and instructions to unlock a range of tasks related to gene analysis effortlessly. When executing the program, you'll be greeted by an intuitive menu presenting the following options: 
 
-<img width="1445" alt="image" src="https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/assets/92859243/dfeb5e92-4695-4132-9de8-f8a93a0406e3">
 
 - **Gene Detection**: Determine if four specific pathogenic genes are present in the new *Yersinia* strains using BLASTP. For a detailed description of the output statistics, see [output_description.md]([Output_Description.md](https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/blob/main/Output_Description.md)).
 - **Protein Search**: Analyze and determine the presence of any protein is in any strain, and output the results in a format similar to 'Gene Detection' option.
