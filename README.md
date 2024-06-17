@@ -8,7 +8,7 @@ An easy-to-use pipeline interface designed for genomic sequence analysis. With P
 The program creates BLAST database, performs BLAST searches and parse the results to an output in a user-friendly format.  
   
 Developed as part of a university project, it aims to identify and analyze specific pathogen genes of interest in novel *Yersinia* bacterial strains.  
-It can be run to the specific pathogen genes or any genes of interest by the user. It also has the functionality to retrive sequence from FASTA file by an ID.  
+It can be run to the specific pathogen genes or **any genes of interest by the user**. It also has the functionality to retrive sequence from FASTA file by an ID.  
 
 
 ### Main Features:
