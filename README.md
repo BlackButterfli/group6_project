@@ -57,11 +57,16 @@ This all-in-one solution operates from a single file, utilizing a collection of 
 
 **Requirements**
 BLAST, edirect, python3 and the following libraries:
-Biopython (Bio)
-sys
-pandas
-os
-datetime
+Biopython (Bio)  
+sys  
+pandas  
+os  
+datetime  
+
+**Important note:** If you are using pre-installed BLAST and/or edirect, make sure the directory of the programs are part of your system PATH. See installation bash script for more details.  
+e.g., ```bash
+      export PATH=$PATH:/directory/to/blast/bin/path
+      ```
 
 **Installation**
 1. Clone the repository and change into the project directory:
