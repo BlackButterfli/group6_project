@@ -9,10 +9,6 @@ The program creates BLAST database, performs BLAST searches and parse the result
   
 Developed as part of a university project, it aims to identify and analyze specific pathogen genes of interest in novel *Yersinia* bacterial strains. It can be run to the specific pathogen genes or **any genes of interest by the user**. It also has the functionality to retrive sequence from FASTA file by an ID.  
 
-## Output Example (parsed BLAST results)
-<img width="1094" alt="image" src="https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/assets/92859243/f6024d8e-c95c-4ba5-9a91-b23f2c124fd7">
-
-
 ### Main Features:
 The assigment asked to use BLAST spesifically in commend line. I have combined my experience with Python to enhance the functionality of the pipeline.
   
@@ -26,6 +22,9 @@ The assigment asked to use BLAST spesifically in commend line. I have combined m
   - Retrieve protein sequences from NCBI.
   - Sequence Retrieval from FASTA Files. 
   - Parse and process BLAST results and save output in a user-friendly format.
+
+## Output Example (parsed BLAST results)
+<img width="1094" alt="image" src="https://github.com/sapir-mardan/pathogen-genomic-analysis-toolkit/assets/92859243/f6024d8e-c95c-4ba5-9a91-b23f2c124fd7">
 
 ## Table of Contents
 
